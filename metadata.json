@@ -1,0 +1,6 @@
+{
+  "name": "RXRESOLVE",
+  "description": "Turn stuck refills into resolved workflows. Intelligent prescription refill orchestration platform for physician groups, pharmacies, and practice staff.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

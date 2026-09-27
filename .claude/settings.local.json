@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npx tsc *)",
+      "Bash(netstat -tulpn)",
+      "Bash(curl -s -I http://localhost:3000)",
+      "Bash(cat /tmp/dev-server.log 2>/dev/null | tail -30 || echo \"Log file not found - checking alternate location...\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s -w \"\\\\nHTTP Status: %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(cp \"C:\\\\Users\\\\Admin\\\\OneDrive\\\\Desktop\\\\RXresolve-main/Assests/Abstract_medical_technology_netw\"*\".mp4\" \"C:\\\\Users\\\\Admin\\\\OneDrive\\\\Desktop\\\\RXresolve-main/public/hero-bg.mp4\" 2>/dev/null && echo \"✓ Video copied to public folder\" || echo \"Video copy failed\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Admin\\\\OneDrive\\\\Desktop\\\\RXresolve-main/public\" && cp \"C:\\\\Users\\\\Admin\\\\OneDrive\\\\Desktop\\\\RXresolve-main/Assests\"/*.mp4 \"C:\\\\Users\\\\Admin\\\\OneDrive\\\\Desktop\\\\RXresolve-main/public/hero-bg.mp4\" && echo \"✓ Video ready!\" && ls -lh \"C:\\\\Users\\\\Admin\\\\OneDrive\\\\Desktop\\\\RXresolve-main/public/hero-bg.mp4\")",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial commit: RXRESOLVE with claymorphism design system and video background *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Admin\\OneDrive\\Desktop\\RXresolve-main\\Assests"
+    ]
+  }
+}
